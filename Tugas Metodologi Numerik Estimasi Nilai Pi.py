@@ -40,6 +40,6 @@ for N in N_values:
     execution_time = end_time - start_time
     error = galat_RMS(pi_est, decimal_places)
     print(f"For N = {N}:")
-    print(f"Estimated pi: {pi_est:.{decimal_places}f}")
-    print(f"Root Mean Square Error: {error}")
-    print(f"Execution Time: {execution_time:.4f} seconds\n")
+    print(f"Estimasi Nilai pi: {pi_est:.{decimal_places}f}")
+    print(f"Galat RMS: {error}")
+    print(f"Waktu Eksekusi: {execution_time:.4f} seconds\n")
